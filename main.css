@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container .row:nth-child(2) {
+    background: #EBEFF7 0% 0% no-repeat padding-box;
+}
+
+.headphones img {
+    width: 118px;
+    height: 118px;
+    margin: 10px;
+}
+
+.lef-column {
+    background: #DFE3EB 0% 0% no-repeat padding-box;
+}
+
+.header-buttons .btn {
+    padding: 10px 30px;
+}
+
+.social-header-icons {
+    margin-left: 30px;
+}
+
+.social-header-icons img {
+    margin: 5px;
+}
+
+.sidebar {
+    background-image: url("img/Mask\ Group\ 7.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 887px;
+    padding-left: 80px;
+}
+
+.sidebar h2 {
+    margin: 0 20px 20px 10px;
+    font: normal normal medium 24px/27px Oswald;
+}
+
+.sidebar p {
+    width: 50%;
+}
+
+.enjoy {
+    background-image: url("img/Mask\ Group\ 13.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 885px;
+}
+
+.product {
+    background: #EBEFF7 0% 0% no-repeat padding-box;
+}
+
+.product span {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.products {
+    background: #DFE3EB 0% 0% no-repeat padding-box;
+}
+
+.contact {
+    background: #EBEFF7 0% 0% no-repeat padding-box;
+}
+
+.social-contact-icons img {
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.contact-logo {
+    width: 119px;
+    height: 30px;
+}
+
+footer {
+    background: #DFE3EB 0% 0% no-repeat padding-box;
+    height: 102px;
+    padding-left: 10%;
+}
+
+.btn-warning {
+    background: #FF9300 0% 0% no-repeat padding-box !important;
+    color: #fff !important;
+}
+
+.btn-outline-warning:hover {
+    background: #FF9300 0% 0% no-repeat padding-box !important;
+    color: #fff;
+}
+
+.text-warning {
+    color: #FF9300 !important;
+}
+
+
+
+.stars-icons .fa-solid {
+    color: #FFC107 !important;
+}
+
+.stars-icons .fa-regular {
+    color: #ccc;
+}
+
+.btn .outline {
+    background-color: transparent !important;
+}
+
+.shop-counter {
+    width: 133px;
+    height: 50px;
+    border: 1px solid #9C9C9C;
+}
+
+.input {
+    top: 442px;
+    left: 1252px;
+    width: 133px;
+    height: 50px;
+    border: 1px solid #9C9C9C;
+    border-radius: 8px;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.input span {
+    font-size: 1.5rem;
+}
+
+.input-groups input {
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #939FB8;
+}
+
+.input-groups input:focus {
+    background-color: transparent;
+}
+
+.input-groups textarea {
+    background-color: transparent !important;
+    border: 1px solid #939FB8;
+}
+
+hr {
+    position: absolute;
+    width: 510px;
+    height: 3px !important;
+    background: #656565 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.replay {
+    position: absolute;
+    width: 80px;
+    height: 3px !important;
+    background: orange 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.line {
+    position: relative;
+    bottom: 30px;
+}
+
+
+/* Responsive design */
+@media(max-width:768px) {
+    hr {
+        display: none;
+    }
+
+    .replay {
+        display: block;
+    }
+
+    .enjoy h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .enjoy p {
+        margin: auto;
+        width: 85%;
+    }
+
+    .header-buttons {
+        text-align: center;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product .col-md-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .col-md-4 {
+        margin: auto;
+    }
+
+    .contact .col-md-2 {
+        margin: auto;
+    }
+
+    .headset {
+        margin-bottom: 60px;
+    }
+
+    .sidebar p {
+        width: 100%;
+    }
+}
+
+@media(min-width:768px) AND (max-width:992px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products .col-md-5 {
+        width: 100%;
+    }
+
+    .products .col-md-4 {
+        width: 80%;
+    }
+
+    .header-buttons .btn {
+        padding: 10px;
+    }
+
+    .sidebar p {
+        width: 100%;
+    }
+
+}
+
+/* End of responsive design */
